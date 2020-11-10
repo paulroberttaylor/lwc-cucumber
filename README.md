@@ -1,4 +1,4 @@
-    Feature: Simple demo of using LWC jest with Gerhkin
+    Feature: Simple demo of using LWC Jest with Gerkhin
 
         Scenario: Check a button fires an event with a payload
 
