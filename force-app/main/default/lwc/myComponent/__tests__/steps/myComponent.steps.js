@@ -5,7 +5,7 @@ import MyComponent from '../../myComponent';
 
 const feature = loadFeature('force-app/main/default/lwc/myComponent/__tests__/features/myComponent.feature');
 
-defineFeature(feature, test => {
+defineFeature(feature, it => {
 
     let element;
     let myHandler;
@@ -23,7 +23,7 @@ defineFeature(feature, test => {
         element.addEventListener('myevent', myHandler);
     })
 
-    test('Check a button fires an event with a payload', ({ given, and, when, then }) => {
+    it('should fire an event with a payload', ({ given, and, when, then }) => {
 
         given('I have a button with an id of myButton', () => {
 

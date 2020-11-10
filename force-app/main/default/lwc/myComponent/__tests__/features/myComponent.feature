@@ -1,6 +1,6 @@
 Feature: Simple demo of using LWC Jest with Gherkin
 
-    Scenario: Check a button fires an event with a payload
+    Scenario: should fire an event with a payload
 
         Given I have a button with an id of myButton
         When I click the button with an id of myButton
