@@ -1,6 +1,6 @@
-Feature: myComponent
+Feature: Simple demo of using LWC jest with Gerhkin
 
-    Scenario: Simple component
+    Scenario: Check a button fires an event with a payload
 
         Given I have a button with an id of myButton
         When I click the button with an id of myButton
