@@ -23,7 +23,7 @@ defineFeature(feature, test => {
         element.addEventListener('myevent', myHandler);
     })
 
-    test('Simple component', ({ given, and, when, then }) => {
+    test('Check a button fires an event with a payload', ({ given, and, when, then }) => {
 
         given('I have a button with an id of myButton', () => {
 
