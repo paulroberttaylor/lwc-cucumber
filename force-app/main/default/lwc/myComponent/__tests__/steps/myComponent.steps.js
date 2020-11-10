@@ -38,7 +38,7 @@ defineFeature(feature, test => {
             myButton.click();
         });
 
-        then("a custom event is called", (eventName) => {
+        then("a custom event is called", () => {
 
             expect(myHandler).toHaveBeenCalled();
         });
