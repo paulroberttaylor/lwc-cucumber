@@ -8,4 +8,4 @@
             And the event has a message property of "hello"
         
 
-./node_modules/.bin/lwc-jest -- --runTestsByPath ./force-app/main/default/lwc/myComponent/__tests__/steps/myComponent.steps.js
+./node_modules/.bin/lwc-jest -- --runTestsByPath ./force-app/main/default/lwc/myComponent/\_\_tests\_\_/steps/myComponent.steps.js
