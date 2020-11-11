@@ -8,4 +8,8 @@
             And the event has a message property of "hello"
         
 
-./node_modules/.bin/lwc-jest -- --runTestsByPath ./force-app/main/default/lwc/myComponent/\_\_tests\_\_/steps/myComponent.steps.js
+1) npm i
+
+2) sfdx force:lightning:lwc:test:setup
+
+3) ./node_modules/.bin/lwc-jest -- --runTestsByPath ./force-app/main/default/lwc/myComponent/\_\_tests\_\_/steps/myComponent.steps.js
