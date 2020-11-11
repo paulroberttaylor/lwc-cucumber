@@ -7,9 +7,13 @@
             Then a custom event is called
             And the event has a message property of "hello"
         
+# HOW TO RUN
 
 1) npm i
 
 2) sfdx force:lightning:lwc:test:setup
 
 3) ./node_modules/.bin/lwc-jest -- --runTestsByPath ./force-app/main/default/lwc/myComponent/\_\_tests\_\_/steps/myComponent.steps.js
+
+
+# WHY USE AN EXTRA LAYER ON TOP OF LWC?
